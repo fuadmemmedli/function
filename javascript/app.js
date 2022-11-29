@@ -8,7 +8,7 @@ function BMI(m,h){
     } else if (25 < bmi && bmi < 29.9) {
         result = "artiq ceki";
     } else {
-        result = "odez";
+        result = "obez";
     }
     return result;
 }
