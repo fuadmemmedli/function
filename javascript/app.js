@@ -1,4 +1,5 @@
-function BMI(m,h){
+    
+    function BMI(m,h){
     let bmi = m / Math.pow(h,2);
     let result;
     if (bmi < 18.5) {
@@ -12,3 +13,33 @@ function BMI(m,h){
     }
     return result;
 }
+
+
+
+
+
+  function fullName (){
+    return "Fuad Memmedli"
+  }
+  console.log("1-", fullName());
+
+
+
+
+  function fullName2(name = 'Fuad', surname = 'Memmedli'){
+    return name + " " + surname;
+  }
+ console.log("2-", fullName2());
+
+
+
+
+ function perimetr(en,uzunlug){
+    console.log((en+uzunlug)*2);
+ }
+ perimetr(3,4)
+
+
+
+
+
